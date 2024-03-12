@@ -1,20 +1,23 @@
+/* Estilos para la tarjeta de usuario */
 .user-card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    padding: 20px;
-    width: 300px;
-    text-align: center;
-  }
+  border: 1px solid #ccc; /* Borde de la tarjeta */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin-bottom: 20px; /* Margen inferior para separación entre tarjetas */
+  padding: 20px; /* Espaciado interno de la tarjeta */
+  width: 300px; /* Ancho de la tarjeta */
+  text-align: center; /* Alineación del contenido al centro */
+}
 
-  .user-card img {
-    border-radius: 50%;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 100px;
-  }
+/* Estilos para la imagen dentro de la tarjeta de usuario */
+.user-card img {
+  border-radius: 50%; /* Forma circular para la imagen */
+  margin-bottom: 10px; /* Margen inferior para separación entre la imagen y el texto */
+  width: 100px; /* Ancho de la imagen */
+  height: 100px; /* Altura de la imagen */
+}
 
-  .user-card p {
-    margin: 5px 0;
-  }
+/* Estilos para los párrafos dentro de la tarjeta de usuario */
+.user-card p {
+  margin: 5px 0; /* Espaciado entre párrafos */
+}
